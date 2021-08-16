@@ -10,8 +10,8 @@
 <style>
     .animation {
         background-color: aquamarine;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-direction: column;
         transition: all .3s;
 
     }
@@ -24,7 +24,7 @@
         transition: all .3s;
     }
 
-    .animation .deleted:hover {
+    .animation .deleted:active {
         background-color: blueviolet;
         width: 0px;
     }
