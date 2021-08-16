@@ -152,7 +152,7 @@ const isValid = (str) => {
 
 isValid("{([])}");
 
-// REGEXP
+// REGEXP expresion regular
 console.log("------------------REGEXP-------------------");
 let regexp = /\D/g;
 // const regObj = new RegExp(".a.o", "g");
