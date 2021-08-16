@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+    .animation {
+        background-color: aquamarine;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        transition: all .3s;
+
+    }
+
+    .animation>* {
+
+        background-color: bisque;
+        width: 150px;
+        height: 150px;
+        transition: all .3s;
+    }
+
+    .animation .deleted:hover {
+        background-color: blueviolet;
+        width: 0px;
+    }
+</style>
+
+<body>
+    <div class="animation">
+        <article>Content</article>
+        <article class="deleted">Content</article>
+        <article>Content</article>
+        <article>Content</article>
+        <article>Content</article>
+        <article>Content</article>
+
+    </div>
+    <button id="btn">incrementa </button>
+    <div class="contenedor">
+        <div style="display: flex; flex-direction: column;align-items: center;" class="columnas imagenes">
+            <img loading="lazy" style="width: 100px; height: 100px;" src="17009-4k.jpg" alt="tecnologia">
+            <img loading="lazy" style="width: 250px; height: 250px;" src="BabyYoda-512px-11.gif" alt="tecnologia">
+            <img loading="lazy" src="https://placeimg.com/200/200/animals" alt="personas">
+
+        </div>
+        <div class="columnas texto">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius deserunt distinctio sunt commodi
+                nesciunt earum doloribus aperiam! Sint obcaecati, et velit corporis temporibus tenetur corrupti dolorum
+                quas est iste.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quidem consequatur delectus culpa!
+                Dicta, saepe a? Sed autem praesentium rerum. Fugit molestiae unde officia dolores vel saepe qui
+                molestias quisquam?
+            </p>
+        </div>
+        <div style="display: flex; flex-direction: column;align-items: center;" class="columnas imagenes">
+            <img lo loading="lazy" src="https://placeimg.com/200/200/people" alt="personas">
+            <img loading="lazy" src="https://placeimg.com/200/200/tech" alt="personas">
+            <img loading="lazy" style="width: 250px; height: 250px;" src="RickAndMorty-512px-11.gif" alt="tecnologia">
+
+            <img loading="lazy" style="width: 250px; height: 250px;" src="LolaBunny-512px-19.gif" alt="tecnologia">
+            <img loading="lazy" style="width: 250px; height: 250px;" src="RickAndMorty-512px-11.gif" alt="tecnologia">
+
+
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

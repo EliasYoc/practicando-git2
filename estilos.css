@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  /* background-color: aqua; */
+  /* display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between; */
+}
+.imagenes {
+  margin: 0 15px;
+}
+.texto {
+  /* background-color: blueviolet; */
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
