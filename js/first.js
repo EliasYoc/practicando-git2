@@ -1,1 +1,1 @@
-console.log("first feature fixing firs");
+console.log("first feature fixing firs adding $");
