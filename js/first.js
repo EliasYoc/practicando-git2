@@ -3,3 +3,4 @@ console.log("second fix");
 console.log("a");
 console.log("new feature b");
 console.log("mi nuevo fix");
+let newFeature;
